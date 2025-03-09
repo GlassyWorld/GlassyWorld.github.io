@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on </title>
+    <link>//localhost:1313/about/</link>
+    <description>Recent content in Abouts on </description>
+    <generator>Hugo</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 09 Mar 2025 19:24:19 +0800</lastBuildDate>
+    <atom:link href="//localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Me</title>
+      <link>//localhost:1313/about/me/</link>
+      <pubDate>Sun, 09 Mar 2025 19:24:19 +0800</pubDate>
+      <guid>//localhost:1313/about/me/</guid>
+      <description>&lt;p&gt;Hi，my name is Simon&lt;/p&gt;&#xA;&lt;p&gt;This is my blog.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

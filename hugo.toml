@@ -1,0 +1,42 @@
+theme = "dream"
+defaultContentLanguage = "zh"
+languageCode = "zh-Hans"
+
+title = "Simon"
+
+hasCJKLanguage = true
+
+[params]
+# zenMode = true
+lightTheme = "emerald"
+darkTheme = "forest"
+ 
+# backgroundImage = "img/global-background.jpg"
+# backgroundImageDark = ""
+ 
+images = ["img/global-background.jpg"]
+ 
+author = "廷墨之白"
+description = "廷墨之白的生活记录～"
+avatar = "img/personal/avatar.jpg"
+headerTitle = "Simon's Blog"
+motto = "人生当砥砺前行"
+
+siteStartYear = 2025
+favicon = "favicon.ico"
+
+# Options
+stickyNav = true
+showTableOfContents = true
+showSummaryCoverInPost = true
+imageZoomableInPost = true
+showPrevNextPost = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
